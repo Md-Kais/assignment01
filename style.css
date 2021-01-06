@@ -4,9 +4,13 @@ body{
     background-image: linear-gradient(45 deg, salmon, lightblue);
     
 }
+.hh{
+    margin-left: 10vw;
+}
 header{
     margin-left: 65vw;
 }
+
 .header a{
     text-decoration: none;
     color: white;
