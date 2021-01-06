@@ -30,9 +30,15 @@ body{
 }
 #project{
     height: 90vh;
+    
+}
+#contact{
+    height: 70vh;
 }
 #hello img{
     margin: 20px;
+    height: 70vh;
+    width: 30vw;
 }
 #hello h1{
    line-height: 80px;
@@ -59,14 +65,68 @@ h2{
     margin: 6px 6px 6px 0px;
     padding: 6px 6px 6px 6px 0px;
 }
-img{
-    width: 100%;
+#about img{
+    height: 70vh; 
+    width: 35vw;
 }
 .divided{
     width: 40%;
     margin-left: 2%;
     padding: 4%;
     float: left;
+    
+}
+ .project-div{
+     margin-left: 2vw;
+     margin-right: 1vw;
+     margin-bottom: 3vh;
+ }
+ #project h3{
+     font-family: 'Roboto', sans-serif;
+     font-weight: 900;
+ }
+.b{
+ display:inline-block;
+ width: 25vw;
+ background-color: royalblue;
+ text-align: left;
+ padding: 2vh 1.5vw;
+ border: 2vh 1vw;
+ margin-left: 1vw;
+ margin-right: 2vw;
+ margin-bottom: 40px;
+ margin-top: 2vh;
+ height: auto , 30vmax;
+ border-radius: 10px;
+}
+.text-block{
+    position: absolute;
+    bottom:2000vw;
+
+}
+.chat-image{
+    width: 100%;
+    background-image: url("images/Group_33094_1.png" );
+    background-position:center;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size:700px 200px;
+    
+
+}
+.chat-work{
+    text-align: left;
+    position: relative;
+    top: 35%;
+    left: 15%;
+    color: white; 
+    
+}
+.chat-chat{
+    text-align: center;
+    position: relative;
+    top:12%;
+    left: 63%;
     
 }
 /* background-image: linear-gradient( 109.6deg,  rgba(238,58,136,1) 11.2%, rgba(128,162,245,1) 91.1% ); */
