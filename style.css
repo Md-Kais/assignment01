@@ -94,7 +94,7 @@ h2{
  .project-div{
      margin-left: 2vw;
      margin-right: 1vw;
-     margin-bottom: 3vh;
+     margin-bottom: 30px;
  }
  #project h3{
      font-family: 'Roboto', sans-serif;
@@ -108,23 +108,29 @@ h2{
  padding: 2vh 1.5vw;
  border: 2vh 1vw;
  margin-left: 1vw;
- margin-right: 2vw;
- margin-bottom: 40px;
+ margin-right: 1.5vw;
+ margin-bottom: 10vh;
  margin-top: 2vh;
- height: auto , 30vmax;
+ height: auto , 30vmax,20vmin;
  border-radius: 15px;
- box-shadow:5px 5px 5px 5px rgba(0,0,223,0.2);
+ box-shadow:1vw 1vh 1vw 1vh rgba(0,0,223,0.2);
 }
 .text-block{
     position: absolute;
     bottom:2000vw;
 
 }
+#chat{
+  margin-top: 30px; 
+   
+}
 .chat-image{
+    
     width: 100%;
     background-image: url("images/Group_33094_1.png" );
     background-position:center;
     height: 500px;
+    margin-top: 100px;
     background-repeat: no-repeat;
     background-size:700px 200px;
     
