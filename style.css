@@ -166,7 +166,10 @@ h2{
     color: red;
     list-style-type: disc;
 }
-
+a:hover{
+    color:rgb(0,218,224);
+    font-size: 125%;
+}
 
 .blogg h2{
    color : rgb(2, 63, 99);
