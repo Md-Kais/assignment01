@@ -183,11 +183,16 @@ a:hover{
 
 .blogg h2{
    color : rgb(2, 63, 99);
-    padding:2px;
+    text-align: center;
+    width: 39vw;
  background-image: linear-gradient( 109.6deg,  rgba(238,58,136,1) 11.2%, rgba(128,162,245,1) 91.1% ); 
     
-
-    border-radius: 0px 80px 0px 80px;
+    
+    padding: 3px;
+    padding-left: 4px;
+margin: 5px;
+border: 10px;
+    border-radius: 24px 80px 24px 80px;
 }
 .footer{
     margin-left: 40vw;
