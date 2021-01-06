@@ -4,7 +4,22 @@ body{
     background-image: linear-gradient(45 deg, salmon, lightblue);
     
 }
-    
+header{
+    margin-left: 65vw;
+}
+.header a{
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+
+}
+.header{
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 5px 5px;
+    line-height: 30px;
+    font-size: 20px;
+}
 .button{
     font-family: 'Poppins' , sans-serif;
     text-decoration: none;
@@ -97,7 +112,8 @@ h2{
  margin-bottom: 40px;
  margin-top: 2vh;
  height: auto , 30vmax;
- border-radius: 10px;
+ border-radius: 15px;
+ box-shadow:5px 5px 5px 5px rgba(0,0,223,0.2);
 }
 .text-block{
     position: absolute;
@@ -128,5 +144,15 @@ h2{
     top:12%;
     left: 63%;
     
+}
+.footer{
+    margin-left: 42vw;
+    margin-right: 25vw;
+}
+.cccc{
+    
+    padding: 3px 3px;
+    margin: 3px 3px;
+    border: 3px 3px;
 }
 /* background-image: linear-gradient( 109.6deg,  rgba(238,58,136,1) 11.2%, rgba(128,162,245,1) 91.1% ); */
