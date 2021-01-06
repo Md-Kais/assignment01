@@ -57,6 +57,9 @@ header{
 }
 #blog{
     height:60vh;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40vw;
 }
 #hello img{
     margin: 20px;
@@ -70,6 +73,7 @@ header{
    color: #363958;
    
 }
+
 h2{
      line-height: 50px;
     font-size: 60px;
@@ -149,7 +153,7 @@ h2{
     position: relative;
     top: 35%;
     left: 15%;
-    color:black; 
+    color: white; 
     
 }
 .chat-chat{
@@ -159,23 +163,28 @@ h2{
     left: 63%;
     
 }
-.blogg{
+.blo{
     text-align: center;
+    background-image: linear-gradient( 109.6deg,  rgba(238,58,136,1) 11.2%, rgba(128,162,245,1) 91.1% );
+    border:100px;
+    position: relative;
+    border-radius: 20px;
 }
     .blo li {
     
-    color: red;
+    color: rgb(23, 211, 86);
     list-style-type: disc;
 }
 a:hover{
     color:rgb(0,218,224);
-    font-size: 125%;
+   /* font-size: 125%;*/
 }
 
 .blogg h2{
    color : rgb(2, 63, 99);
     padding:2px;
-    background-image: linear-gradient( 109.6deg,  rgba(238,58,136,1) 11.2%, rgba(128,162,245,1) 91.1% ); 
+ background-image: linear-gradient( 109.6deg,  rgba(238,58,136,1) 11.2%, rgba(128,162,245,1) 91.1% ); 
+    
 
     border-radius: 0px 80px 0px 80px;
 }
@@ -189,11 +198,6 @@ a:hover{
     margin: 3px 3px;
     border: 3px 3px;
 }
-ul li {
-    
-    color: black;
-    list-style-type: disc;
-}
 
 
 
@@ -201,4 +205,3 @@ ul li {
 
 
 
-/* background-image: linear-gradient( 109.6deg,  rgba(238,58,136,1) 11.2%, rgba(128,162,245,1) 91.1% ); */
